@@ -2,7 +2,7 @@
 
 Stephen Boyd, March 25, 2014
 @sspboyd
-blog.sspboyd.ca/
+http://blog.sspboyd.ca/post/80791537495/learning-processing-simple-text-parsing-cleaning-and
 
 ----------------------------
 
