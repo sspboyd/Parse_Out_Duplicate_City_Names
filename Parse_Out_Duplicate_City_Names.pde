@@ -1,11 +1,19 @@
-/*
+/*============================================================================
+
 Stephen Boyd, March 25, 2014
 @sspboyd
 blog.sspboyd.ca/
-*/
 
-// This is an example project written in Processing to show how to do some 
-// simple parsing and cleaning of a text file, and then saving out the result.
+----------------------------
+
+This is an example project written in Processing to show how to do some simple 
+parsing and cleaning of a text file, and then saving out the result.
+
+See the blog post for more information:
+http://blog.sspboyd.ca/
+
+============================================================================*/
+
 
 // This program only uses the setup() function because we are not drawing 
 // anything to the screen. We're just going to work on some text from a file 
