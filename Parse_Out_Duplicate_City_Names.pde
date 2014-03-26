@@ -1,14 +1,19 @@
 /*
 Stephen Boyd, March 25, 2014
 @sspboyd
-sspboyd@sspboyd.ca
+blog.sspboyd.ca/
 */
 
-// Parse out every 9th line from the provided text file
-void setup() {
-  // no size call since we're just working on a text file
+// This is an example project written in Processing to show how to do some simple parsing and cleaning of a text file, and then saving out the result.
 
-  // load the file with the list of cities with lots of duplicates
+// This program only uses the setup() function because we are not drawing anything to the screen. We're just going to work on some text from a file and save it back out to the hard drive.
+void setup() {
+  // No size() call since we're just working on a text file.
+
+  // The file we are about to load into the program is called MajorCities.txt and has 9000 lines. Each city is listed 9 times in a row. Each line looks something like this...
+  // "TOKYO, Japan" - [425083]
+  
+  // Load the file with the list of cities with lots of duplicates.
   String[] dupCityList = loadStrings("MajorCities.txt"); 
 
   // Creating a new String array called newCityList to hold the de-duplicated list of cities. The length is determined by dividing by 9 because there are nine entries for every city. If we weren't sure about the source of the data we would need to add in a way to check every line and see if each city had already been added to the list or not.
