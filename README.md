@@ -1,7 +1,7 @@
 Parse_Out_Duplicate_City_Names
 ==============================
 
-This is an example project written in Processing to show how to parse and clean a text file, then save out the result.
+This is an example project written in Processing to show how to do some simple parsing and cleaning of a text file, and then saving out the result.
 
 Since teaching a class on Processing this past Saturday I've realized that a few code examples of using Processing for some straightforward tasks might be helpful to people getting started with the Processing language and programming in general. 
 
